@@ -1,0 +1,28 @@
+body{
+    font-family: "Raleway", Arial, sans-serif;
+    background-color: #ddd;
+    background-image: url(./assests/image5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+h1{
+    text-align: left;
+    color: #ffffff;
+    letter-spacing: 4px;
+}
+p{
+    margin: 20px 0;
+    color: #dddddd;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+}

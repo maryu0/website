@@ -1,0 +1,129 @@
+html, body{
+    background-color: #f0f0f0;
+    background-image: url(./assests/image2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}   
+.container{
+    font-family: "Raleway", Arial, sans-serif;
+}
+body{
+    height: 100vh;
+}
+.main{
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 6px;
+    color: #ffffff;
+    font-size: 2rem;
+}
+.name{
+    text-align: center;
+    letter-spacing: 5px;
+    color: #eeeeee;
+    font-size: 1.5rem;
+}
+.quote{
+    text-align: center;
+    letter-spacing: 2px;
+    color:  #dddddd; 
+    font-size: 1rem;
+}
+.navigation ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color:  #cccccc;
+    transition: color 0.3s;
+}
+.navigation ul li a:hover{
+    color: #666666;
+}
+
+.foot{
+    text-align: center;
+    padding-top: 1.5rem ;
+    position: fixed;
+    letter-spacing: 1.5px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+@media(max-width: 1250px){
+    .main{
+        font-size: 1.75rem;
+    }
+    .name{
+        font-size: 1.25rem;
+    }
+    .quote{
+        font-size: 0.8rem;
+    }
+    .navigation ul{
+        gap: 15px;
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 768px){
+    .main{
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+    .name {
+        font-size: 1.1rem;
+    }
+    .quote{
+        font-size: 0.85rem;
+    }
+    .navigation ul{
+        gap: 10px;
+        font-size: 0.85rem;
+    }
+    .foot{
+        font-size: 0.85rem;
+        padding-top: 1rem;
+    }
+
+}
+
+@media(max-width: 480px){
+    .main{
+        font-size: 1.25rem;
+        padding: 10px;
+    }
+    .name{
+        font-size: 1rem;
+    }
+    .quote{
+        font-size: 0.75rem;
+    }
+    .navigation ul{
+        flex-direction: column;
+        gap: 5px;
+        font-size: 0.8rem;
+    }
+    .foot{
+        font-size: 0.75rem;
+        padding-top: 0.5rem;
+    }
+}
